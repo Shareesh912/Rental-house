@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url('bi6.jpg');
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 90%;
+            max-width: 1000px;
+        }
+
+        .container {
+            display: flex;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .image-section {
+            flex: 1;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .details-section {
+            flex: 1;
+            padding: 20px;
+            background-color: #f8fafc;
+        }
+
+        .details-section h2 {
+            margin-bottom: 15px;
+            color: #333;
+            font-size: 1.8em;
+        }
+
+        .details-section ul {
+            list-style: none;
+        }
+
+        .details-section li {
+            margin-bottom: 10px;
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        .details-section li strong {
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="container">
+            <div class="image-section">
+                <img src="b1.jpg" alt="Project Image">
+            </div>
+            <div class="details-section">
+                <h2>Project Details</h2>
+                <ul>
+                    <li><strong>Cost:</strong> $6,000</li>
+                    <li><strong>Materials Present:</strong> Wood, Glass, lights</li>
+                    <li><strong>Time Taken:</strong> 5 months</li>
+                    <li><strong>Description:</strong> A beautifully crafted custom project showcasing the blend of materials and meticulous attention to detail.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="image-section">
+                <img src="b2.jpg" alt="Project Image">
+            </div>
+            <div class="details-section">
+                <h2>Project Details</h2>
+                <ul>
+                    <li><strong>Cost:</strong> $6,000</li>
+                    <li><strong>Materials Present:</strong> Wood, Glass, lights</li>
+                    <li><strong>Time Taken:</strong> 5 months</li>
+                    <li><strong>Description:</strong> A beautifully crafted custom project showcasing the blend of materials and meticulous attention to detail.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="image-section">
+                <img src="b3.jpg" alt="Project Image">
+            </div>
+            <div class="details-section">
+                <h2>Project Details</h2>
+                <ul>
+                    <li><strong>Cost:</strong> $7,000</li>
+                    <li><strong>Materials Present:</strong> Wood, Cuttons, Glass, lights</li>
+                    <li><strong>Time Taken:</strong> 7 months</li>
+                    <li><strong>Description:</strong> A beautifully crafted custom project showcasing the blend of materials and meticulous attention to detail.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="image-section">
+                <img src="b4.jpg" alt="Project Image">
+            </div>
+            <div class="details-section">
+                <h2>Project Details</h2>
+                <ul>
+                    <li><strong>Cost:</strong> $6,500</li>
+                    <li><strong>Materials Present:</strong> Wood, Metal, Glass, lights</li>
+                    <li><strong>Time Taken:</strong> 5 months</li>
+                    <li><strong>Description:</strong> A beautifully crafted custom project showcasing the blend of materials and meticulous attention to detail.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
